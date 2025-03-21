@@ -8,9 +8,17 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [RouterOutlet, HomeComponent, HeaderComponent],
   template: `
     <app-header />
-    <app-home />
+    <main>
+      <app-home />
+    </main>
   `,
-  styles: [],
+  styles: [
+    `
+      main {
+        padding: 16px;
+      }
+    `
+  ],
 })
 export class AppComponent {
   title = 'first-ng-app';

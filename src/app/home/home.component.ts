@@ -8,5 +8,9 @@ import { GreetingComponent } from '../components/greeting/greeting.component';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  message = signal('Good day!')
+  message = signal('Good day!');
+
+  keyUpHandler(event: KeyboardEvent) {
+    console.log(`user typed ${event.key}`)
+  }
 }

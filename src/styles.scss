@@ -6,7 +6,9 @@
 }
 
 body {
-    background: url('images/background.jpeg');
-    background-size: 1920px auto;
-    height: 100vh;
+    background-image: url('images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
 }

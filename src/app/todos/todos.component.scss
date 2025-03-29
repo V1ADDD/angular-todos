@@ -1,0 +1,41 @@
+div {
+    backdrop-filter: blur(25px);
+}
+h3 {
+    font-size: 48px;
+    font-family: 'Lilita One';
+    color: white;
+    margin-block: 12px;
+    text-align: center;
+}
+p {
+    font-size: 24px;
+    font-family: 'Lilita One';
+    color: white;
+    margin-block: 12px;
+    text-align: center;
+}
+form {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lilita One';
+    color: white;
+}
+input {
+    display: block;
+    background: none;
+    border: white solid 1px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Lilita One';
+    color: white;
+    transition-duration: 500ms;
+    margin-block: 12px;
+    margin-inline: auto;
+}
+
+.todos {
+    margin-block: 36px;
+    background: none;
+}

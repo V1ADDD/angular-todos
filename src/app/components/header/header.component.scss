@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    padding: 24px 48px;
+    font-family: 'Lilita One';
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        justify-content: start;
+        gap: 24px;
+        align-items: center;
+        width: 100%;
+
+        span {
+            cursor: pointer;
+            padding: 8px 16px;
+            font-size: 24px;
+            border-radius: 12px;
+            transition-duration: 500ms;
+            &:hover {
+                background-color: #7777778f;
+            }
+        }
+
+        ul {
+            list-style: none;
+            li {
+                cursor: pointer;
+                padding: 8px 16px;
+                font-size: 18px;
+                margin-top: 3px;
+                border-radius: 12px;
+                transition-duration: 500ms;
+                &:hover {
+                    background-color: #7777778f;
+                }
+            }
+        }
+    }
+}

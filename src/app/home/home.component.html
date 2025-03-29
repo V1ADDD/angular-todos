@@ -1,0 +1,7 @@
+<div class="container">
+    <div>
+        <app-greeting [message]="message()"/>
+        <app-counter />
+        <input placeholder="type some..." type="text" (keyup)="keyUpHandler($event)">
+    </div>
+</div>

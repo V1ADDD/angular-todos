@@ -1,7 +1,27 @@
 .todos {
     &__item {
+        color: white;
+        font-family: 'Lilita One';
+        font-weight: lighter;
         display: flex;
         align-items: center;
         gap: 8px;
+        width: 50%;
+        margin: 8px auto;
+        padding: 8px 16px;
+        border: rgba(255, 255, 255, 0.541) solid 1px;
+        font-size: 18px;
+        border-radius: 12px;
+        transition-duration: 500ms;
+        background-color: transparent;
+        &:hover {
+            background-color: #7777778f;
+        }
     }
+}
+
+.completed {
+    text-decoration: line-through;
+    background-color: #7777778f;
+    color: #6c757d;
 }

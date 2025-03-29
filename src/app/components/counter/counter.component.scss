@@ -1,0 +1,21 @@
+p {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-block: 0 6px;
+}
+
+button {
+    background: none;
+    border: white solid 1px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Lilita One';
+    color: white;
+    cursor: pointer;
+    margin: 3px;
+    transition-duration: 500ms;
+    &:hover {
+        background-color: #7777778f;
+    }
+}
